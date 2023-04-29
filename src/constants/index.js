@@ -171,7 +171,7 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Megersa proved me wrong.",
-    name: "Tysion Regasa",
+    name: "Tsion Regasa",
     designation: "CEO",
     company: "Jafet Business Group",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
