@@ -130,7 +130,7 @@ const experiences = [
     company_name: "Awash Bank",
     icon: awash,
     iconBg: "#383E56",
-    date: "Des 2022 - Present",
+    date: "Des 2022 - March 2023",
     points: [
       "Developing and maintaining web applications using Angular Js, spring boot and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
