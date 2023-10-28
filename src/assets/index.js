@@ -33,6 +33,7 @@ import awash from "./company/awashlogo.png";
 import nuhik from "./company/nuhik.png";
 import waliin from "./company/walin.png";
 import ecommerce from "./company/ecommerce.png";
+import elkastech from "./company/elkas.jpeg";
 import dashboard from "./dashboard.png";
 import airbnb from "./airbnb.png";
 import hotel from "./hotel.png";
@@ -73,6 +74,7 @@ export {
   nuhik,
   waliin,
   ecommerce,
+  elkastech,
   dashboard,
   airbnb,
   hotel,

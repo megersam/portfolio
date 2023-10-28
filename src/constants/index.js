@@ -27,6 +27,7 @@ import {
   nuhik,
   waliin,
   ecommerce,
+  elkastech,
   dashboard,
   airbnb,
   hotel,
@@ -126,16 +127,31 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer",
+    company_name: "Elkas Technologies",
+    icon: elkastech,
+    iconBg: "#383E56",
+    date: "May 2023 - Present",
+    points: [
+      "Designed and engineered scalable and efficient systems, leveraging industry best practices and cutting-edge technologies.",
+      "Developed RESTful APIs and microservices, enabling efficient data exchange and communication between different system components.",
+      "Participated in Agile development methodologies, including daily stand-ups, sprint planning, and code reviews.",
+      "Worked closely with web designers, project managers, and clients to understand the requirements, and then wrote code to build the web application.",
+      "Actively participated in Agile development processes, including sprint planning, daily stand-ups, and retrospective meetings, to ensure timely delivery of software features and resolve any roadblocks.",
+    ],
+  },
+
+  {
     title: "Web App Developer",
     company_name: "Awash Bank",
     icon: awash,
     iconBg: "#383E56",
     date: "Des 2022 - March 2023",
     points: [
-      "Developing and maintaining web applications using Angular Js, spring boot and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack.",
+      "Collaborated with a team of developers to design and implement features, ensuring high-quality code and efficient functionality.",
+      "Participated in Agile development methodologies, including daily stand-ups, sprint planning, and code reviews.",
+      "Demonstrated strong problem-solving skills and the ability to adapt quickly to new challenges.",
     ],
   },
   {
@@ -146,19 +162,6 @@ const experiences = [
     date: "May 2018 - Des 2022",
     points: [
       "Developing and maintaining web applications using MERN stack and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: " Junior Web Developer",
-    company_name: "Waliin Tec",
-    icon: waliin,
-    iconBg: "#383E56",
-    date: "Jan 2017 - May 2018",
-    points: [
-      "Developing and maintaining web applications using HTML, CSS, ReactJs, and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -219,6 +222,7 @@ const projects = [
     ],
     image: ecommerce,
     source_code_link: "https://github.com/megersam/-ecommerce",
+    source_code_link: "https://eshop-ten-rho.vercel.app/",
   },
   // 
   {
@@ -241,6 +245,7 @@ const projects = [
     ],
     image: dashboard,
     source_code_link: "https://github.com/megersam/reactJSDashboard",
+    source_code_link: "https://dashboard-shoppy.netlify.app/",
   },
 // 
  {

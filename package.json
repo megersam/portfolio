@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "preview": "vite preview"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
