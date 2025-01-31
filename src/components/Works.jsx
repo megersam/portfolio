@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github, web } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -6,16 +7,30 @@ import { projects } from "../constants";
 
 const ProjectCard = ({ name, description, tags, image, source_code_link, code_link }) => {
   return (
-    <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
+    <motion.div 
+      whileHover={{ scale: 1.05 }} // 👈 Hover Animation: Slight Scale Up
+      transition={{ duration: 0.2 }}
+      className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full hover:shadow-lg'
+    >
       <div className='relative w-full h-[230px]'>
         <img src={image} alt='project_image' className='w-full h-full object-cover rounded-2xl' />
 
         <div className='absolute inset-0 flex justify-end m-3'>
-          <a href={source_code_link} target="_blank" rel="noopener noreferrer">
-            <img src={github} alt='source code' className='w-10 h-10 p-2 bg-black rounded-full' />
+          <a 
+            href={source_code_link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="w-10 h-10 p-2 bg-black rounded-full flex justify-center items-center transition-all hover:bg-gray-700"
+          >
+            <img src={github} alt='source code' className='w-1/2 h-1/2' />
           </a>
-          <a href={code_link} target="_blank" rel="noopener noreferrer">
-            <img src={web} alt='live demo' className='w-10 h-10 p-2 bg-black rounded-full ml-2' />
+          <a 
+            href={code_link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="w-10 h-10 p-2 bg-black rounded-full flex justify-center items-center ml-2 transition-all hover:bg-gray-700"
+          >
+            <img src={web} alt='live demo' className='w-1/2 h-1/2' />
           </a>
         </div>
       </div>
@@ -32,7 +47,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link, code_li
           </span>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
