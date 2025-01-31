@@ -8,7 +8,7 @@ import { projects } from "../constants";
 const ProjectCard = ({ name, description, tags, image, source_code_link, code_link }) => {
   return (
     <motion.div 
-      whileHover={{ scale: 1.05 }} // 👈 Hover Animation: Slight Scale Up
+      whileHover={{ scale: 2.05 }} // 👈 Hover Animation: Slight Scale Up
       transition={{ duration: 0.2 }}
       className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full hover:shadow-lg'
     >
