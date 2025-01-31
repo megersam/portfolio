@@ -34,6 +34,13 @@ import {
   buss,
   tesfaye,
   bikila,
+  hance,
+  interview,
+  video,
+  hwfitness,
+  bidcraftai,
+  contentai,
+  etender,
 } from "../assets";
 
 export const navLinks = [
@@ -127,17 +134,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full stack Developer",
+    company_name: "Hance Technology",
+    icon: hance,
+    iconBg: "#383E56",
+    date: "July 2024 - Nov 2024",
+    points: [
+      "Developed backend systems for Project Plate and a Dental Clinic Management System using Node.js, TypeScript, and Spring Boot.",
+      "Implemented scalable REST APIs to support appointment scheduling, payment processing, and patient management. Designed robust authentication and authorization systems for multi-role platforms.",
+      "Worked with Docker to containerize applications, enhancing deployment efficiency."
+    ],
+  },
+  {
     title: "Software Developer",
     company_name: "Elkas Technologies",
     icon: elkastech,
     iconBg: "#383E56",
-    date: "May 2023 - Present",
+    date: "May 2023 - Jun-2023",
     points: [
-      "Designed and engineered scalable and efficient systems, leveraging industry best practices and cutting-edge technologies.",
-      "Developed RESTful APIs and microservices, enabling efficient data exchange and communication between different system components.",
-      "Participated in Agile development methodologies, including daily stand-ups, sprint planning, and code reviews.",
-      "Worked closely with web designers, project managers, and clients to understand the requirements, and then wrote code to build the web application.",
-      "Actively participated in Agile development processes, including sprint planning, daily stand-ups, and retrospective meetings, to ensure timely delivery of software features and resolve any roadblocks.",
+      "Built and optimized SaaS products and web applications using Node.js and Spring Boot.",
+      "Designed and maintained APIs to facilitate seamless data exchange and user management.",
+      "Collaborated with cross-functional teams to deliver high-quality, secure, and scalable solutions."
     ],
   },
 
@@ -148,10 +165,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Des 2022 - March 2023",
     points: [
-      "Developed web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack.",
-      "Collaborated with a team of developers to design and implement features, ensuring high-quality code and efficient functionality.",
-      "Participated in Agile development methodologies, including daily stand-ups, sprint planning, and code reviews.",
-      "Demonstrated strong problem-solving skills and the ability to adapt quickly to new challenges.",
+      "Developed web applications focused on API integrations with Spring Boot.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Gained hands-on experience in backend development and database management."
+      
     ],
   },
   {
@@ -162,7 +179,6 @@ const experiences = [
     date: "May 2018 - Des 2022",
     points: [
       "Developing and maintaining web applications using MERN stack and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -199,6 +215,180 @@ const testimonials = [
 
 const projects = [
   {
+    name: "InterviewGenie",
+    description:
+      "InterviewGenie is an AI-driven interview preparation platform that helps job seekers practice with tailored questions and AI-generated answers based on specific job descriptions. It supports multiple industries and roles, ensuring personalized preparation for any career path. With an intuitive user-friendly interface, users can generate unlimited interview questions and receive AI-crafted responses, making job interview practice seamless and effective.",
+    tags: [
+        
+      {
+        name: "Mongo DB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Kinde Auth",
+        color: "green-text-gradient",
+      },
+       {
+        name: "Node Js",
+        color: "green-text-gradient",
+      }
+    ],
+    image: interview,
+    source_code_link: "",
+    code_link: "https://ai-prepare.vercel.app/",
+  },
+  {
+    name: "Ai Short video Generator",
+    description:
+      "A SaaS-based AI-powered video creation platform that transforms user ideas into engaging videos using Google Gemini AI and Replicate AI. It automates story generation, audio synthesis, captioning, and image creation, seamlessly combining these elements into a final rendered video. With Clerk-powered authentication and monthly subscriptions, users can effortlessly create high-quality content with minimal effort.",
+    tags: [
+        
+      {
+        name: "ShadnUI",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "Next Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk Auth",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Google Gemini",
+        color: "pink-text-gradient",
+      } 
+    ],
+    image: video,
+    source_code_link: "https://github.com/megersam/ai-short-video-creator",
+    code_link: "https://short-video-creator.netlify.app/",
+  },
+  {
+    name: "FitAccess",
+    description:
+      "FitAccess Pro is a smart fitness center management system integrated with IoT for seamless access control. Using Next.js, MongoDB, NextAuth, and Vercel, it automates QR code-based gate access, ensuring only active subscribers can enter. The platform handles member subscriptions, renewals, and real-time access validation, providing a secure and efficient gym management solution. Built for HW Fitness Center",
+    tags: [
+        
+      {
+        name: "ShadnUI",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "Next Js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NextAuth",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "pink-text-gradient",
+      } 
+    ],
+    image: hwfitness,
+    source_code_link: "",
+    code_link: "https://hw-fitness.vercel.app/",
+  },
+  {
+    name: "BidCraft AI",
+    description:
+      "BidCraft AI is a Next.js-powered proposal generator integrated with the Gemini API, designed to help freelancers create compelling bid proposals in seconds. By analyzing job postings, it generates a structured proposal with three key sections: summary, pricing, and delivery timeline. This automation streamlines the bidding process, enabling freelancers to submit high-quality proposals instantly.",
+    tags: [
+       
+      {
+        name: "Google Gemini",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ShadnUI",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "Next Js",
+        color: "pink-text-gradient",
+      } 
+    ],
+    image: bidcraftai,
+    source_code_link: "",
+    code_link: "https://ai-bid-assist.vercel.app/",
+  },
+  {
+    name: "ContentAI: Social Media Content Generator",
+    description:
+      " A Next.js-based application that leverages AI to create engaging content for Twitter, Instagram, and LinkedIn. The platform features an intuitive design, advanced content generation, and seamless user management.",
+    tags: [
+      {
+        name: "Mongo DB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cleck Auth",
+        color: "green-text-gradient",
+      },
+      
+      {
+        name: "ShadnUI",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "Next Js",
+        color: "pink-text-gradient",
+      } 
+    ],
+    image: contentai,
+    source_code_link: "",
+    code_link: "https://aicontent-creator.vercel.app/",
+  },
+  {
+    name: "E-Tender News",
+    description:
+      "A comprehensive online platform for browsing and submitting tenders in Ethiopia. The platform enables organizations and government agencies to post tenders, while businesses can easily find and apply for relevant opportunities. It simplifies the tendering process and ensures transparency.",
+    tags: [
+      {
+        name: "Mongo DB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Cleck Auth",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ShadnUI",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "Next Js",
+        color: "pink-text-gradient",
+      },
+       {
+        name: "Node Js",
+        color: "green-text-gradient",
+      }
+    ],
+    image: etender,
+    source_code_link: "",
+    code_link: "https://e-tender.vercel.app/",
+  },
+  {
     name: "E-Commerce",
     description:
       "MERN stack based e-commerce website is a fully-functional online store that allows customers to browse, search, and purchase products. The MERN stack includes four key technologies: MongoDB, Express.js, React.js, and Node.js, which work together seamlessly to create a powerful web application.",
@@ -221,8 +411,8 @@ const projects = [
       }
     ],
     image: ecommerce,
-    source_code_link: "https://github.com/megersam/-ecommerce",
-    source_code_link: "https://eshop-ten-rho.vercel.app/",
+    source_code_link: "",
+    code_link: "https://eshop-ten-rho.vercel.app/",
   },
   // 
   {
@@ -245,7 +435,7 @@ const projects = [
     ],
     image: dashboard,
     source_code_link: "https://github.com/megersam/reactJSDashboard",
-    source_code_link: "https://dashboard-shoppy.netlify.app/",
+    code_link: "https://dashboard-shoppy.netlify.app/",
   },
 // 
  {
@@ -319,27 +509,7 @@ const projects = [
     source_code_link: "https://github.com/megersam/e-bus-ticketing",
   },
   // 
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
+  
   
 ];
 

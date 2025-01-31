@@ -40,6 +40,13 @@ import hotel from "./hotel.png";
 import buss from "./bus.jpeg";
 import tesfaye from "./tesfaye.jpeg";
 import bikila from "./bikila.jpeg";
+import hance from "./hance.jpg";
+import interview from "./interviewai.png";
+import video from "./video.png";
+import hwfitness from "./hwfitness.png";
+import bidcraftai from "./bidcraftai.png";
+import contentai from "./contentai.png";
+import etender from "./etender.png";
 
 export {
   logo,
@@ -81,4 +88,11 @@ export {
   buss,
   tesfaye,
   bikila,
+  hance,
+  interview,
+  video,
+  hwfitness,
+  bidcraftai,
+  contentai,
+  etender
 };
