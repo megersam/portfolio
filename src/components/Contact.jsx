@@ -127,7 +127,7 @@ const Contact = () => {
           <a href="https://instagram.com/megersa_muleta" target="_blank" rel="noopener noreferrer" className="social-icon">
             <Instagram className="w-10 h-10 text-white transition-transform transform hover:scale-125 hover:text-pink-500" />
           </a>
-          <a href="https://t.me/@megersa_m" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <a href="https://t.me/megersa_m" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaTelegram className="w-10 h-10 text-white transition-transform transform hover:scale-125 hover:text-green-500" />
           </a>
         </div>
