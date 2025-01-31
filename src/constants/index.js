@@ -242,7 +242,7 @@ const projects = [
       }
     ],
     image: interview,
-    source_code_link: "",
+    source_code_link: "https://ai-prepare.vercel.app/",
     code_link: "https://ai-prepare.vercel.app/",
   },
   {
@@ -298,7 +298,7 @@ const projects = [
       } 
     ],
     image: hwfitness,
-    source_code_link: "",
+    source_code_link: "https://hw-fitness.vercel.app/",
     code_link: "https://hw-fitness.vercel.app/",
   },
   {
@@ -322,11 +322,11 @@ const projects = [
       } 
     ],
     image: bidcraftai,
-    source_code_link: "",
+    source_code_link: "https://ai-bid-assist.vercel.app/",
     code_link: "https://ai-bid-assist.vercel.app/",
   },
   {
-    name: "ContentAI: Social Media Content Generator",
+    name: "ContentAI",
     description:
       " A Next.js-based application that leverages AI to create engaging content for Twitter, Instagram, and LinkedIn. The platform features an intuitive design, advanced content generation, and seamless user management.",
     tags: [
@@ -350,7 +350,7 @@ const projects = [
       } 
     ],
     image: contentai,
-    source_code_link: "",
+    source_code_link: "https://aicontent-creator.vercel.app/",
     code_link: "https://aicontent-creator.vercel.app/",
   },
   {
@@ -385,7 +385,7 @@ const projects = [
       }
     ],
     image: etender,
-    source_code_link: "",
+    source_code_link: "https://e-tender.vercel.app/",
     code_link: "https://e-tender.vercel.app/",
   },
   {
@@ -411,7 +411,7 @@ const projects = [
       }
     ],
     image: ecommerce,
-    source_code_link: "",
+    source_code_link: "https://eshop-ten-rho.vercel.app/",
     code_link: "https://eshop-ten-rho.vercel.app/",
   },
   // 
@@ -455,6 +455,7 @@ const projects = [
     ],
     image: airbnb,
     source_code_link: "https://github.com/megersam/airbnb-clone",
+    code_link: "https://github.com/megersam/airbnb-clone",
   },
   // 
   {
@@ -477,6 +478,7 @@ const projects = [
     ],
     image: hotel,
     source_code_link: "https://github.com/megersam/hotelbookingMERN",
+    code_link: "https://github.com/megersam/hotelbookingMERN",
   },
   // 
    {
@@ -507,6 +509,7 @@ const projects = [
     ],
     image: buss,
     source_code_link: "https://github.com/megersam/e-bus-ticketing",
+    code_link: "https://github.com/megersam/e-bus-ticketing",
   },
   // 
   
